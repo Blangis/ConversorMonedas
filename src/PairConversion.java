@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 
 public class PairConversion {
     public Coin conversion(String base_code, String target_code, float amount){
-        URI url = URI.create("https://v6.exchangerate-api.com/v6/725d62f8f655f8cddbbd52aa/pair/"+
+        URI url = URI.create("https://v6.exchangerate-api.com/v6/PON-TU-API-KEY/pair/"+
                 base_code+"/"+target_code+"/"+amount+"/");
 
         HttpClient client = HttpClient.newHttpClient();
